@@ -1,0 +1,97 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container {
+    width: 1317px;
+    height: 600px;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: 900;
+    padding: 20px;
+    font-style: oblique;
+}
+
+.logo-text {
+    margin-left: 650px;
+    margin-top: -24px;
+    font-size: 20px;    
+    font-weight: 550;
+}
+ul { 
+    display: flex;
+    gap: 45px;
+}
+
+
+.Sign-up {
+    padding: 15px;
+    width: 120px;
+    height: 60px;
+     background-color: red ;
+    align-items: center;
+    text-align: center;
+    color: white;
+    border-radius: 13px;
+    margin-top: -15px;
+    cursor: pointer;
+}
+
+li {
+    list-style: none;
+}                                                           
+
+.border-in-logo {
+    height: 17px;
+    border-left: 1px rgba(36, 36, 36, 0.705) solid;
+    margin-left: 190px;
+    margin-top: -40px;
+}
+.search {
+    margin-left: 230px;
+    margin-top: -20px;
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.img-Egypt{
+    width: 1250px;
+    height: 548px;
+    background-color: rgba(209, 164, 149, 0.377);
+    border-top-right-radius : 40px;
+    border-top-left-radius : 40px;
+    margin-top: 34px;
+}
+ 
+.p-text1{
+    width: 700px;
+    font-size: 71px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 310px;
+}
+.p-text2{
+    width: 700px;
+    font-size: 71px;
+    font-weight: 700;
+    text-align: center;
+    margin-left: 310px;
+}
+.img-Egypt-end{
+        width: 1250px;
+        height: 700px;
+        background-image: url(./img/pexels-taryn-elliott-3889907\ 2.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 20px;
+        margin: 20px;
+        margin-top: -700px;
+        margin-left: 60px;
+    } 
